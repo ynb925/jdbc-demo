@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abaf23ec-19fa-4be5-a234-d65fc80ac0da" name="Changes" comment="init demo conn jdbc and postgresql, all cfg is default and made for test to connect with databasedd">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="abaf23ec-19fa-4be5-a234-d65fc80ac0da" name="Changes" comment="init demo conn jdbc and postgresql, all cfg is default and made for test to connect with database" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +13,6 @@
   <component name="ChangesViewManager">
     <option name="groupingKeys">
       <option value="directory" />
-      <option value="module" />
     </option>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -66,6 +57,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ynb4m\IdeaProjects\jdbc-demo\target\classes" />
       <recent name="C:\Users\ynb4m\IdeaProjects\jdbc-demo\src" />
       <recent name="C:\Users\ynb4m\IdeaProjects\jdbc-demo\src\main\java" />
     </key>
@@ -105,8 +97,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init demo conn jdbc and postgresql, all cfg is default and made for test to connect with database" />
     <MESSAGE value="init demo conn jdbc and postgresql, all cfg is default and made for test to connect with databasedd" />
-    <option name="LAST_COMMIT_MESSAGE" value="init demo conn jdbc and postgresql, all cfg is default and made for test to connect with databasedd" />
+    <MESSAGE value="init demo conn jdbc and postgresql, all cfg is default and made for test to connect with database" />
+    <option name="LAST_COMMIT_MESSAGE" value="init demo conn jdbc and postgresql, all cfg is default and made for test to connect with database" />
   </component>
 </project>
