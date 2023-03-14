@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 /**
  * My test to make connection with postgres database and look simple table doctor
+ * make train with simple connections
  */
 
 public class JdbcDemoApp {
