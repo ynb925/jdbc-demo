@@ -2,8 +2,11 @@ package net.jdbc;
 
 import lombok.SneakyThrows;
 import org.postgresql.ds.PGSimpleDataSource;
-
 import java.sql.SQLException;
+
+/**
+ * My test to make connection with postgres database and look simple table doctor
+ */
 
 public class JdbcDemoApp {
 
