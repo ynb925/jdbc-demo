@@ -1,4 +1,4 @@
-package net.example;
+package net.jdbc;
 
 import lombok.SneakyThrows;
 import org.postgresql.ds.PGSimpleDataSource;
