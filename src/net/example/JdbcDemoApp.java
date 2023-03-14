@@ -1,3 +1,5 @@
+package net.example;
+
 import lombok.SneakyThrows;
 import org.postgresql.ds.PGSimpleDataSource;
 
