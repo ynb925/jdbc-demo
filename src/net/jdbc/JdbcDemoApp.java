@@ -1,7 +1,8 @@
 package net.jdbc;
 
-import lombok.SneakyThrows;
+
 import org.postgresql.ds.PGSimpleDataSource;
+
 import java.sql.SQLException;
 
 /**
@@ -11,7 +12,6 @@ import java.sql.SQLException;
 
 public class JdbcDemoApp {
 
-    @SneakyThrows
     public static void main(String[] args) {
         PGSimpleDataSource dataSource = new PGSimpleDataSource();
         dataSource.setURL("jdbc:postgresql://localhost:5432/postgres");
@@ -20,13 +20,14 @@ public class JdbcDemoApp {
 
         try (var connection = dataSource.getConnection()) {
             try (var statement = connection.createStatement()) {
-                var resultSet = statement.executeQuery("select * from doctor;");
+                var resultSet = statement.executeQuery("SELECT * FROM doctor;");
                 while (resultSet.next()) {
-                    var fullName = resultSet.getString("fullname");
-                    var spez = resultSet.getString("spez");
+                    var idName = resultSet.getString("id");
+                    var fullName = resultSet.getString("fullName");
+                    var specialist = resultSet.getString("specialist");
                     var age = resultSet.getString("age");
 
-                    System.out.println(fullName + " - " + spez + " - " + age);
+                    System.out.println(idName + " - " + fullName + " - " + specialist + " - " + age);
                 }
             } catch (SQLException e) {
                 throw new RuntimeException(e);

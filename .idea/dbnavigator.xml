@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -30,7 +30,7 @@
     <connections>
       <connection id="314e8429-320e-499c-9e48-862f976ec575" active="true" signed="true">
         <database>
-          <name value="MyPostgresql" />
+          <name value="local PG" />
           <description value="local dabase" />
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />

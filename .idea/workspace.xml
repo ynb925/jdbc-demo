@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abaf23ec-19fa-4be5-a234-d65fc80ac0da" name="Changes" comment="init demo conn jdbc and postgresql, all cfg is default and made for test to connect with database">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/jdbc/JdbcDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/jdbc/JdbcDemoApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +18,7 @@
   <component name="ChangesViewManager">
     <option name="groupingKeys">
       <option value="directory" />
+      <option value="module" />
     </option>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -28,12 +31,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d22e7fb2-3e79-4178-8096-a6da117e73a5" />
+        <option name="url" value="https://github.com/ynb925/jdbc-demo.git" />
+      </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2N1EacgJY6LU7ZXLdHHzY3dWM0H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,10 +61,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ynb4m/IdeaProjects/jdbc-demo",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ynb4m/IdeaProjects/0___JAR_files/postgresql-42.6.0.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15332031",
-    "project.structure.side.proportion": "0.25632185"
+    "project.structure.side.proportion": "0.3787529"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -60,6 +77,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ynb4m\IdeaProjects\jdbc-demo" />
       <recent name="C:\Users\ynb4m\IdeaProjects\jdbc-demo\target\classes" />
       <recent name="C:\Users\ynb4m\IdeaProjects\jdbc-demo\src" />
       <recent name="C:\Users\ynb4m\IdeaProjects\jdbc-demo\src\main\java" />
