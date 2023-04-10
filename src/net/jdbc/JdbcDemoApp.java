@@ -1,6 +1,5 @@
 package net.jdbc;
 
-
 import org.postgresql.ds.PGSimpleDataSource;
 
 import java.sql.SQLException;
@@ -24,10 +23,10 @@ public class JdbcDemoApp {
                 while (resultSet.next()) {
                     var idName = resultSet.getString("id");
                     var fullName = resultSet.getString("fullName");
-                    var specialist = resultSet.getString("specialist");
+                    var spez = resultSet.getString("spez");
                     var age = resultSet.getString("age");
 
-                    System.out.println(idName + " - " + fullName + " - " + specialist + " - " + age);
+                    System.out.println(idName + " - " + fullName + " - " + spez + " - " + age);
                 }
             } catch (SQLException e) {
                 throw new RuntimeException(e);
